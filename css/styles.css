@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-image: url("../img/background.jpg");
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 615px;
+    justify-content: center;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 30pt;
+    margin-bottom: 20px;
+
+}
+span{
+    color: purple;
+}
+
+header p {
+    font-size: 15pt;
+}
+
+.lista{
+    height: 620px;
+    display: flex;
+}
+
+#adicionar{
+    width: 700px;
+}
+
+#tarefas{
+    background-color: lightgrey;
+    height: 620px;
+    width: 700px;
+}
+
