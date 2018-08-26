@@ -7,7 +7,7 @@ header{
     background-image: url("../img/background.jpg");
     background-size: 1400px;
     background-repeat: no-repeat;
-        display: flex;
+    display: flex;
     align-items: center;
     flex-direction: column;
     height: 617px;
@@ -31,6 +31,7 @@ header p {
 .lista{
     height: 617px;
     display: flex;
+
 }
 
 #adicionar{
@@ -63,3 +64,7 @@ button{
     margin-top: 30px;
 }
 
+#novaTarefa{
+    list-style-type: none;
+    
+}
