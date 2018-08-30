@@ -1,22 +1,21 @@
 body{
-    background-image: url("../img/listabg.jpg");
-    margin: 0;
-    background-repeat: no-repeat;
-    
+    background-image: url("../img/back.png");
+    margin: 0;    
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 header{
-   display: flex;
+    display: flex;
     align-items: center;
     flex-direction: column;
-    height: 617px;
     justify-content: center;
-    font-family: 'Indie Flower', cursive;
+    
 }
 
 h1{
     font-weight: 600;
     font-size: 30pt;
     margin-bottom: 20px;
+   
     
 }
 span{
@@ -24,14 +23,12 @@ span{
 }
 
 header p {
-    font-size: 15pt;
+    font-size: 17pt;
 }
 
 .lista{
-    height: 617px;
     display: flex;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-   
+    
     
 }
 
@@ -44,17 +41,17 @@ header p {
 }
 
 input[type=text]{
-    border-bottom-right-radius: 10px;
     border-top: none;
-    border-top-left-radius: 10px;
+    border-radius: 10px;    
     width: 300px;
     height: 100px;
     text-align: center;
     background-color: rgba(211, 211, 211, 0.582);
+    outline: none;
+    
 }
 
 .tarefasAdicionadas{
-    height: 617px;
     width: 700px;
     display: flex;
     justify-content: center;
@@ -68,6 +65,7 @@ input[type=text]{
 }
 button{
     cursor: pointer;
+    outline: none;
 }
 
 #enviar{
@@ -112,6 +110,8 @@ button{
     width: 500px;
     padding: 5px;
     text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 17pt;
 }
 
 .concluir, .excluir{
@@ -129,4 +129,10 @@ button{
 .excluir{
     background-image: url("../img/excluir.png");
     
+}
+
+.concluida{
+    text-decoration: line-through;
+    border: none;
+    color: rgb(59, 58, 58);
 }
