@@ -41,13 +41,14 @@ header p {
 }
 
 input[type=text]{
-    border-top: none;
     border-radius: 10px;    
     width: 300px;
     height: 100px;
     text-align: center;
-    background-color: rgba(211, 211, 211, 0.582);
+    background-color: rgba(250, 231, 216, 0.514);
     outline: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-color: rgba(105, 99, 92, 0.616);
     
 }
 
@@ -69,10 +70,14 @@ button{
 }
 
 #enviar{
-    margin-top: 5px;
+    margin-top: 10px;
     border-radius: 5px;
     width: 100px;
     height: 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: rgba(250, 231, 216, 0.514);
+    border-color: rgba(107, 104, 102, 0.616);
+
 }
 
 #semTarefas{
